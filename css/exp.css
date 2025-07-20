@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff8a80; /* culoare vibrantă */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ff5252; /* o nuanță mai închisă pentru hover */
+}
+
+.navbar a:nth-child(1) {
+    background-color: #ffab40;
+}
+
+.navbar a:nth-child(2) {
+    background-color: #ff6e40;
+}
+
+.navbar a:nth-child(3) {
+    background-color: #ff8a65;
+}
+
+.navbar a:nth-child(4) {
+    background-color: #ffd180;
+}
+
+.navbar a:nth-child(5) {
+    background-color: #ffcc80;
+}
+
+.navbar a:nth-child(6) {
+    background-color: #ffa726;
+}
